@@ -1,7 +1,7 @@
 TweetNacl in Java: port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js)
 ====================================================================
 
-![Java CI](https://github.com/InstantWebP2P/tweetnacl-java/workflows/Java%20CI/badge.svg)
+[![Build](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml/badge.svg)](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml)
 
 ### Download
 
