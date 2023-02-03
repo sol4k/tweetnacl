@@ -1,4 +1,4 @@
-package com.iwebpp.crypto;
+package org.sol4k.tweetnacl;
 
 public final class Log {
 

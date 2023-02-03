@@ -1,7 +1,7 @@
 // Copyright (c) 2014 Tom Zhou<appnet.link@gmail.com>
 
 
-package com.iwebpp.crypto;
+package org.sol4k.tweetnacl;
 
 import java.io.UnsupportedEncodingException;
 import java.security.SecureRandom;

@@ -1,7 +1,7 @@
 // Copyright (c) 2014 Tom Zhou<iwebpp@gmail.com>
 
 
-package com.iwebpp.crypto;
+package org.sol4k.tweetnacl;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -9,11 +9,8 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import java.io.UnsupportedEncodingException;
-import com.iwebpp.crypto.TweetNacl;
-import com.iwebpp.crypto.TweetNaclFast;
-import org.junit.Test;
 
-import static com.iwebpp.crypto.TweetNacl.Box.nonceLength;
+import org.junit.Test;
 
 public final class TweetNaclTest {
 	private static final String TAG = "TweetNaclTest";
@@ -89,8 +86,8 @@ public final class TweetNaclTest {
 	public void testBoxNonce() throws UnsupportedEncodingException {
 	
 		// explicit nonce
-		byte [] theNonce = new byte[nonceLength];
-		com.iwebpp.crypto.TweetNacl.randombytes(theNonce, nonceLength);
+		byte [] theNonce = new byte[TweetNacl.Box.nonceLength];
+		TweetNacl.randombytes(theNonce, TweetNacl.Box.nonceLength);
 		String theNoncet = "";
 		for (int i = 0; i < theNonce.length; i ++)
 			theNoncet += " "+theNonce[i];
@@ -221,8 +218,8 @@ public final class TweetNaclTest {
 		// shared key plus explicit nonce
 		
 		// explicit nonce
-        byte [] theNonce = new byte[nonceLength]; 
-        com.iwebpp.crypto.TweetNacl.randombytes(theNonce, nonceLength);
+        byte [] theNonce = new byte[TweetNacl.Box.nonceLength];
+        TweetNacl.randombytes(theNonce, TweetNacl.Box.nonceLength);
 		String theNoncet = "";
 		for (int i = 0; i < theNonce.length; i ++)
 			theNoncet += " "+theNonce[i];

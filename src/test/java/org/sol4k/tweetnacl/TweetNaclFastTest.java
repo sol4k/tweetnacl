@@ -1,4 +1,4 @@
-package com.iwebpp.crypto;
+package org.sol4k.tweetnacl;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -6,9 +6,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
 
-import com.iwebpp.crypto.TweetNaclFast;
 import org.junit.Test;
 
 public final class TweetNaclFastTest {
