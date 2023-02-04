@@ -1,14 +1,22 @@
-TweetNacl in Java: port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js)
-====================================================================
+# TweetNacl port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js) [![Build](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml/badge.svg)](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml)
 
-[![Build](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml/badge.svg)](https://github.com/sol4k/tweetnacl/actions/workflows/build.yml)
+The original repository [InstantWebP2P/tweetnacl-java](https://github.com/InstantWebP2P/tweetnacl-java) doesn't
+have its artifacts in Maven Central. This fork solves the problem. Import it using Gradle or Maven.
 
-### Download
-
-#### Using Gradle
+## Gradle
 
 ```
-implementation "io.github.instantwebp2p:tweetnacl-java:1.1.2"
+implementation 'org.sol4k:tweetnacl:0.1.5'
+```
+
+## Maven
+
+```xml
+<dependency>
+    <groupId>org.sol4k</groupId>
+    <artifactId>tweetnacl</artifactId>
+    <version>0.1.5</version>
+</dependency>
 ```
 
 ### API/Usage
