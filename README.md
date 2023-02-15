@@ -6,7 +6,7 @@ have its artifacts in Maven Central. This fork solves the problem. Import it usi
 ## Gradle
 
 ```
-implementation 'org.sol4k:tweetnacl:0.1.5'
+implementation 'org.sol4k:tweetnacl:0.1.6'
 ```
 
 ## Maven
@@ -15,7 +15,7 @@ implementation 'org.sol4k:tweetnacl:0.1.5'
 <dependency>
     <groupId>org.sol4k</groupId>
     <artifactId>tweetnacl</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
 </dependency>
 ```
 
